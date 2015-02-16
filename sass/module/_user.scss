@@ -483,7 +483,10 @@
 
   .ding-wayf--login-block {
     background-color: #fff;
-    color: #000;
+
+    a {
+      color: #000;
+    }
 
     padding: 4px 15px;
   }
@@ -501,7 +504,10 @@
 
   .ding-wayf--create-user {
     background-color: #FFF;
-    color: #f26306;
+
+    a {
+      color: $topbar-background-color;
+    }
 
     padding: 4px 15px;
   }
