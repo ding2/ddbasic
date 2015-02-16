@@ -474,7 +474,7 @@
 
 .wayf-wrapper {
   position: absolute;
-  right: 0;
+  right: 20px;
   bottom: 15px;
 }
 
@@ -483,6 +483,8 @@
 
   .ding-wayf--login-block {
     background-color: #fff;
+
+    @include border-radius($button-border-radius);
 
     a {
       color: #000;
@@ -504,6 +506,8 @@
 
   .ding-wayf--create-user {
     background-color: #FFF;
+
+    @include border-radius($button-border-radius);
 
     a {
       color: $topbar-background-color;

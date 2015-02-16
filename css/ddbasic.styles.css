@@ -6697,7 +6697,7 @@ input#edit-search-block-form--2.spinner {
    ========================================================================== */
 .wayf-wrapper {
   position: absolute;
-  right: 0;
+  right: 20px;
   bottom: 15px; }
 
 .pane-wayf-dk-login {
@@ -6705,6 +6705,9 @@ input#edit-search-block-form--2.spinner {
   margin-left: 20px; }
   .pane-wayf-dk-login .ding-wayf--login-block {
     background-color: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     padding: 4px 15px; }
     .pane-wayf-dk-login .ding-wayf--login-block a {
       color: #000; }
@@ -6716,6 +6719,9 @@ input#edit-search-block-form--2.spinner {
   display: inline-block; }
   .pane-ding-wayf-dk-create-user .ding-wayf--create-user {
     background-color: #FFF;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     padding: 4px 15px; }
     .pane-ding-wayf-dk-create-user .ding-wayf--create-user a {
       color: #000001; }
