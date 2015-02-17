@@ -6700,6 +6700,9 @@ input#edit-search-block-form--2.spinner {
   right: 20px;
   bottom: 15px; }
 
+.ding-wayf--cancel {
+  margin-left: 15px; }
+
 .pane-wayf-dk-login {
   display: inline-block;
   margin-left: 20px; }
