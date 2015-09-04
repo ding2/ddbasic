@@ -326,6 +326,12 @@ function ddbasic_preprocess_node(&$variables, $hook) {
       ),
     ));
     $variables['ddbasic_event_time'] = $event_time_ra[0]['#markup'];
+
+    // Show 'Free' text when field_ding_event_price is empty. This has to be
+    // handled, since the field template is not used in this case.
+    if (!isset($variables['content']['field_ding_event_price'])) {
+      $variables['content']['field_ding_event_price'] = t('Free');
+    }
   }
 
   // Add tpl suggestions for node view modes.
