@@ -26,10 +26,6 @@
   &.available {
     @extend %button-action;
   }
-
-  &.unavailable.reservable {
-    @include create-gradient-button($white, $availability-reservable, darken($availability-reservable, 15%));
-  }
 }
 
 /* Labels and links.
