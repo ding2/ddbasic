@@ -19,5 +19,5 @@
   * regardless of any changes in the aliasing that might happen if
   * the view is modified.
   */
-$price = empty($output) ? t('Free') : $output;
+$price = empty($output) || intval($output) < 1 ? t('Free') : $output;
 print $price;
