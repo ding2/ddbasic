@@ -107,13 +107,15 @@
   .notice-star {
     @extend .icon-info-sign;
 
-    visibility: hidden;
-    margin-right: -2em;
-    padding-left: .5em;
+    margin-right: -16px;
+    padding-left: 8px;
+    // Using font-size:0 in order to make the * coming from opening-hours-module invisible.
+    // Visibility must not be hidden, since IE will also hide the :before-element. 
+    font-size: 0;
 
     // Icon placement and font-face.
     &:before {
-      visibility: visible;
+      font-size: 16px;
       font-family: $base-icon-library-font;
     }
   }
